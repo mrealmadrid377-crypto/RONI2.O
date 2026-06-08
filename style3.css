@@ -296,4 +296,7 @@ h1.haina {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
+img{
+    max-width: 100%;
+    height: auto;
+}
