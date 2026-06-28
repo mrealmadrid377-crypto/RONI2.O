@@ -292,7 +292,7 @@ h1.haina {
 }
 
 .men{
-    display: flex;
+    display: ;
     justify-content: space-between;
     flex-wrap: wrap;
 }
