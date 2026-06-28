@@ -290,6 +290,11 @@ h1.haina {
     );
     margin: 50px 0;
 }
+.men ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
 
 .men{
     display: flex;
