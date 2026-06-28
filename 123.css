@@ -1,4 +1,305 @@
+/* Fondo principal */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
 
+body{
+    background:linear-gradient(135deg,#0f172a,#1e3a8a,#7c3aed);
+    min-height:100vh;
+}
+
+
+
+
+
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 50px 20px;
+
+     
+}
+
+header h1.h {
+     
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #00ffff,
+                 0 0 20px #00ffff,
+                 0 0 40px #00ffff;
+}
+
+/* Tarjetas */
+.card {
+    background-image: url(Gemini_Generated_Image_dkw6eodkw6eodkw6.png);
+    justify-content:space-between;
+    
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 20px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.4);
+    transition: 0.4s;
+}
+
+.card:hover {
+  
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 0 30px rgba(0,255,255,0.8);
+}
+
+/* Botón llamativo */
+.btn {
+    display: inline-block;
+    padding: 15px 35px;
+    background: linear-gradient(45deg, #ff0080, #ff6600);
+    color: rgb(151, 14, 14);
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 0 15px rgba(255,0,128,0.7);
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(255,0,128,1);
+    text-decoration: none;
+}
+
+/* Animación de entrada */
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.btn1 {
+    
+      width:100%;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(0,0,0,0.4);
+    backdrop-filter:blur(10px);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+li {
+     
+      width:100%;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(0,0,0,0.4);
+    backdrop-filter:blur(10px);
+    position:sticky;
+    top:0;
+    z-index:1000;
+    animation: aparecer 1s ease;
+    text-align: center;
+}
+img {
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(255,255,255,0.5);
+    transition: 0.3s;
+    display: block;
+    margin:  auto;
+    width: 600px;
+    alt:200px;
+    height: 600px;
+
+}
+
+.footer-bottom{
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 1px solid rgba(255,255,255,.1);
+    color: #aaa;
+}
+
+
+
+
+.card1{
+background-image: url(Haina-2\ \(1\).jpg);
+    justify-content:space-between;
+   justify-content:space-between;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 20px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.4);
+    transition: 0.4s;
+    
+}
+.texto-neon {
+    font-size: 30px;
+    font-weight: bold;
+    color: #9a9aa8;
+    text-shadow:
+        0 0 5px #0c088b,
+        0 0 5px #0c088b,
+        0 0 10px #0c088b,  
+        0 0 20px #0c088b,
+        0 0 40px #0c088b,
+}
+
+
+
+
+.haina{
+      font-size: 20px;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(270deg, #ff512f, #dd2476, #1fa2ff);
+    background-size: 600% 600%;
+    animation: fondoAnimado 8s ease infinite;
+     overflow:hidden;
+    flex:1;
+}
+
+@keyframes fondoAnimado {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+    
+    
+
+
+.haina a {
+    display:inline-block;
+    white-space:nowrap;
+    padding-left:100%;
+    animation:haina 18s linear infinite;
+    text-decoration: none;
+}
+
+@keyframes haina{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-100%);
+    }
+}
+h1.haina {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #00ffff,
+                 0 0 20px #00ffff,
+                 0 0 40px #00ffff;
+                 text-decoration: none;
+                 color: #b1afaf;
+}
+
+.texto-destacado {
+  background: linear-gradient(135deg, #000428, #004e92);
+    color: white;
+    padding: 25px;
+    border-radius: 20px;
+    border: 2px solid #00d4ff;
+    font-size: 18px;
+    line-height: 1.7;
+    box-shadow: 0 0 25px rgba(0,212,255,0.5);
+}
+
+.noticia {
+    font-family: 'Verdana', sans-serif;
+    font-size: 18px;
+    color: #222;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.texto-tv {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: linear-gradient(90deg, #ff6600, #ffcc00);
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+.texto-brillo 
+  {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #ffcc00, #ff6600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 3px;
+
+}
+
+.texto-neon {
+
+}.glass-text {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+.texto-flotante {
+    font-size: 20px;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(270deg, #ff512f, #dd2476, #1fa2ff);
+    background-size: 600% 600%;
+    animation: fondoAnimado 8s ease infinite;
+}
+
+@keyframes fondoAnimado {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.linea-premium {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        #00aaff,
+        #00ffff,
+        #00aaff,
+        transparent
+    );
+    margin: 50px 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
 
 
 
