@@ -302,6 +302,40 @@ img{
 }
 
 
+.haina-separador {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 50px 0;
+    position: relative;
+}
+
+
+.haina-separador::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 35%;
+    height: 2px;
+    background: #00aaff;
+}
+
+.haina-separador::before {
+    left: 0;
+}
+
+.haina-separador::after {
+    right: 0;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
 
 
 
