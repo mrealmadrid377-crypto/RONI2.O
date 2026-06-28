@@ -112,18 +112,5 @@ body{
 
 
 
-.men ul{
-    list-style:none;
-    display:flex;
-    gap:20px;
-}
 
-.men{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-img{
-    max-width: 100%;
-    height: auto;s
 
