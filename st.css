@@ -34,7 +34,7 @@ header h1.h {
 }
 
 /* Tarjetas */
-.ca {
+.card {
     background-image: url(Gemini_Generated_Image_dkw6eodkw6eodkw6.png);
     justify-content:space-between;
     
@@ -53,7 +53,7 @@ header h1.h {
 }
 
 /* Botón llamativo */
-.bt {
+.btn {
     display: inline-block;
     padding: 15px 35px;
     background: linear-gradient(45deg, #ff0080, #ff6600);
@@ -87,12 +87,12 @@ header h1.h {
     
       width:100%;
     padding:15px 50px;
-    display:;
+    display:flex;
     justify-content:space-between;
     align-items:center;
     background:rgba(0,0,0,0.4);
     backdrop-filter:blur(10px);
-    position:;
+    position:sticky;
     top:0;
     z-index:1000;
 }
@@ -100,12 +100,12 @@ li {
      
       width:100%;
     padding:15px 50px;
-
+    display:flex;
     justify-content:space-between;
     align-items:center;
     background:rgba(0,0,0,0.4);
     backdrop-filter:blur(10px);
-    position:;
+    position:sticky;
     top:0;
     z-index:1000;
     animation: aparecer 1s ease;
@@ -291,12 +291,11 @@ h1.haina {
     margin: 50px 0;
 }
 
-.men{
-   
+.menu{
+    display: flex;
     justify-content: space-between;
-  
+    flex-wrap: wrap;
 }
 img{
     max-width: 100%;
     height: auto;
-}
