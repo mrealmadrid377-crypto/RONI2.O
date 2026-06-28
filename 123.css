@@ -124,11 +124,9 @@ img {
 }
 
 .footer-bottom{
- background:rgba(15,15,15,.9);
-    backdrop-filter:blur(15px);
-    border-top:1px solid rgba(255,255,255,.1);
+   background:#101820;
+    border-top:4px solid #ffcc00;
     color:white;
-    padding:60px 20px;
 }
 
 
