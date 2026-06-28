@@ -304,4 +304,15 @@ img{
     width: 100%;
     max-width: 1200px;
     margin: auto;
+}.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+.caja {
+    flex: 1;
+    min-width: 300px;
+    padding: 10px;
+}
+
