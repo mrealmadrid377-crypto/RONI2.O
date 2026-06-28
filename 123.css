@@ -399,15 +399,7 @@ h1.haina {
     margin: 50px 0;
 }
 
-.menu{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-img{
-    max-width: 100%;
-    height: auto;
-}
+
 
 
 
