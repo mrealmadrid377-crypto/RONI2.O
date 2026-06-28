@@ -124,9 +124,11 @@ img {
 }
 
 .footer-bottom{
-   background:#101820;
-    border-top:4px solid #ffcc00;
-    color:white;
+ text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    color: #aaa
 }
 
 
