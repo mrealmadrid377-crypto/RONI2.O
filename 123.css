@@ -124,11 +124,11 @@ img {
 }
 
 .footer-bottom{
-    text-align: center;
-    margin-top: 40px;
-    padding: 20px;
-    border-top: 1px solid rgba(255,255,255,.1);
-    color: #aaa;
+ background:rgba(15,15,15,.9);
+    backdrop-filter:blur(15px);
+    border-top:1px solid rgba(255,255,255,.1);
+    color:white;
+    padding:60px 20px;
 }
 
 
