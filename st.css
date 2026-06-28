@@ -53,7 +53,7 @@ header h1.h {
 }
 
 /* Botón llamativo */
-.btn {
+.bt {
     display: inline-block;
     padding: 15px 35px;
     background: linear-gradient(45deg, #ff0080, #ff6600);
